@@ -23,7 +23,5 @@ dependencies {
     implementation project(':FtcRobotController')
     annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
 
-    implementation "com.github.AtomicRobotics3805:CFLib:-SNAPSHOT"
-    implementation "com.github.NoahBres:MeepMeep:2.0.0"
-    implementation "com.acmerobotics.roadrunner:core:0.5.3"
+    implementation "com.github.AtomicRobotics3805:CFLib:0.0.1"
 }
