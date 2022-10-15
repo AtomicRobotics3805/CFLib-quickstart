@@ -11,6 +11,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10'
     }
 }
 
@@ -22,7 +23,7 @@ allprojects {
         google()
 
         maven { url = 'https://jitpack.io/' }
-        maven { url = 'https://maven.brott.dev/' }
+        maven { url = 'https://maven.brott.dev' }
     }
 }
 
